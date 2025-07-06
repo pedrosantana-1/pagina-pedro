@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedro Santana Astolfi</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>Pedro Santana Astolfi</h1>
+    
+    <p>Meu nome é Pedro Santana Astolfi, tenho 23 anos, sou de Perdões no interior de Minas Gerais.</p>
+
+    <p>Tenho o hábito de fazer academia, correr, assistir animes, jogar bola e o mais importante: ficar o máximo de tempo possível com minha filhota!
+    Gosto muito de estudar sobre tecnologia. Inclusive, tenho um projeto que estou desenvolvendo com um amigo meu, que consiste em um assistente financeiro
+    que ajuda a controlar os gastos utilizando a Inteligência Artificial pelo WhatsApp. Abaixo está a logo do nosso projeto.</p>
+
+    <!-- Botão e mensagem motivacional -->
+    <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+    <p id="mensagem"></p>
+
+    <img src="imagens/LogoGraneer.png" width="75" alt="Logo Graneer">
+
+    <h2>Meus Hobbies</h2>
+    <ul>
+        <li>Jogar Futebol</li>
+        <li>Correr</li>
+        <li>Jogar VideoGame</li>
+    </ul>
+    <img src="imagens/Corrida.jpeg" width="150" alt="Corrida">
+
+    <h2>Países que quero visitar</h2>
+    <table border="1">
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="imagens/Japão.jpg" width="100" alt="Japão"></td>
+        </tr>
+        <tr>
+            <td>Itália</td>
+            <td><img src="imagens/Itália.jpg" width="100" alt="Itália"></td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td><img src="imagens/Canadá.webp" width="100" alt="Canadá"></td>
+        </tr>
+    </table>
+
+    <br>
+    <a href="http://graneer.com.br" target="_blank">Link do site que estou criando</a>
+
+    <!-- Script JS no final do body -->
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").innerText = "Você é capaz de conquistar tudo o que deseja. Nunca desista!";
+        }
+    </script>
+
+</body>
+</html>
